@@ -3,8 +3,11 @@
 <small><em>Expected to Graduate in 2024</em></small>
 <br>
 
-![Linkedin: delano-lourenco](https://img.shields.io/badge/-delanolourenco-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/delano-lourenco) ![GitHub 3ddelano](https://img.shields.io/github/followers/3ddelano?label=follow&style=social)
-
+<p>
+  <a href="https://www.linkedin.com/in/delano-lourenco-a9022a190" rel="nofollow noreferrer" target="_blank">
+    <img src="https://img.shields.io/badge/-delanolourenco-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/delano-lourenco-a9022a190/" alt="linkedin"></a> <a href="https://github.com/3ddelano" rel="nofollow noreferrer">
+    <img src="https://img.shields.io/github/followers/3ddelano?label=followers&style=social" alt="github"></a>
+</p>
 I am a passionate full stack programmer fluent in Javascript and Python. I code websites too.
 
 **Contact me**
