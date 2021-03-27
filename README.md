@@ -1,0 +1,6 @@
+- 👋 Hi, I’m Delano Lourenco
+- 👀 I’m interested in Discord.js Bots, Web Development, Python program
+- 🗣️ I speak Javascript, Python, C
+- 🌱 I’m currently pursuing Btech in CSE
+- 💞️ I’m looking to collaborate on anything
+- 📫 How to reach me [EMAIL](3ddelano@gmail.com)
