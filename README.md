@@ -1,7 +1,8 @@
 <h2>self.name = "Delano Lourenco"</h2>
-<p><em>BTech CSE student at <a href="https://chennai.vit.ac.in/" target="_blank">Vellore Institute of Technology</a></em> 🧑‍🎓</p><small><em>Expected to Graduate in 2024</em></small>
+<p><em>BTech CSE student at <a href="https://chennai.vit.ac.in/" target="_blank">Vellore Institute of Technology</a></em> 🧑‍🎓</p>
+<small><em>Expected to Graduate in 2024</em></small>
 <br>
-![Linkedin: delano-lourenco](https://img.shields.io/badge/-delanolourenco-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/delano-lourenco)   [![GitHub 3ddelano](https://img.shields.io/github/followers/3ddelano?label=follow&style=social)](https://github.com/3ddelano) ![](https://visitor-badge.glitch.me/badge?page_id=3ddelano.3ddelano)
+![Linkedin: delano-lourenco](https://img.shields.io/badge/-delanolourenco-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/delano-lourenco) ![GitHub 3ddelano](https://img.shields.io/github/followers/3ddelano?label=follow&style=social)](https://github.com/3ddelano) ![](https://visitor-badge.glitch.me/badge?page_id=3ddelano.3ddelano)
 
 I am a passionate full stack programmer fluent in Javascript and Python. I code websites too.
 
