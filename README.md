@@ -3,4 +3,4 @@
 - 🗣️ I speak Javascript, Python, C
 - 🌱 I’m currently pursuing Btech in CSE
 - 💞️ I’m looking to collaborate on anything
-- 📫 How to reach me [EMAIL](3ddelano@gmail.com)
+- 📫 How to reach me [EMAIL](mailto:3ddelano@gmail.com)
