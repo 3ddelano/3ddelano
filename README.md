@@ -13,6 +13,9 @@ I am a passionate full stack programmer fluent in Javascript and Python. I code 
 **Contact me**
 * Email: [3ddelano@gmail.com](mailto:3ddelano@gmail.com)
 
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=3ddelano&theme=dark&layout=compact)
+
+
 **Some of the tools I use:**
 <p>
   <img alt="Javascript" src="https://img.shields.io/badge/-Javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img alt="Nodejs" src="https://img.shields.io/badge/-Node.js-43853d?style=flat-square&logo=Node.js&logoColor=white" />
