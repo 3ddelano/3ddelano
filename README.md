@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/-delanolourenco-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/delano-lourenco-a9022a190/" alt="linkedin"></a> <a href="https://github.com/3ddelano" rel="nofollow noreferrer">
     <img src="https://img.shields.io/github/followers/3ddelano?label=followers&style=social" alt="github"></a>
 </p>
-I am a passionate full stack programmer fluent in Javascript and Python. I code websites too.
+Passionate full stack web and app dev fluent in React, Next, Prisma, Supabase, Tailwind. In my free time I use Godot game engine and make Web3 Dapps too.
 
 **Contact me**
 * Email: [3ddelano@gmail.com](mailto:3ddelano@gmail.com)
