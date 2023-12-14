@@ -1,6 +1,6 @@
-<h2>self.name = "Delano Lourenco"</h2>
-<p><em>BTech CSE student at <a href="https://chennai.vit.ac.in/" target="_blank">Vellore Institute of Technology</a></em> 🧑‍🎓</p>
-<small><em>Expected to Graduate in 2024</em></small>
+<h2>Hi, I'm Delano Lourenco</h2>
+<p>Fullstack Web & App Dev | ReactJS | NextJS | React Native | Expo | Godot</p>
+
 <br>
 
 <p>
@@ -8,12 +8,13 @@
     <img src="https://img.shields.io/badge/-delanolourenco-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/delano-lourenco-a9022a190/" alt="linkedin"></a> <a href="https://github.com/3ddelano" rel="nofollow noreferrer">
     <img src="https://img.shields.io/github/followers/3ddelano?label=followers&style=social" alt="github"></a>
 </p>
-Passionate full stack web and app dev fluent in React, Next, Prisma, Supabase, Tailwind. In my free time I use Godot game engine and make Web3 Dapps too.
+
+In my free time I use Godot game engine and make Web3 Dapps too.
 
 **Contact me**
-* Email: [3ddelano@gmail.com](mailto:3ddelano@gmail.com)
+* Discord: @3ddelano (@3ddelano#6033)
 
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=3ddelano&theme=dark&layout=compact)
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=3ddelano&theme=light&layout=compact)
 
 
 **Some of the tools I use:**
@@ -26,6 +27,8 @@ If you like what I do, maybe consider buying me a cup of coffee
 <a href="https://www.buymeacoffee.com/3ddelano" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
 
 **What I have worked on**
+* [Epic Online Services Godot | Godot Plugin](https://github.com/3ddelano/epic-online-services-godot)
+   Unofficial Epic Online Services wrapper for Godot Engine 4.2 written in C++.
 * [Delano Tatsumi | Discord Bot](https://delano-tatsumi.herokuapp.com/)
    A feature rich modern bot for Discord with online dashboard, shop and amazing games.
 * [House Builder | Discord Bot](https://house-builder.herokuapp.com/)
