@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Delano Lourenco: full-stack, mobile and game tools developer">
+  <defs>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.5 0;0.5 0;-0.5 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="gridFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#fff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="gridMask"><rect x="0" y="230" width="1200" height="110" fill="url(#gridFade)"/></mask>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.12"/>
+    </linearGradient>
+    <radialGradient id="glowA"><stop offset="0" stop-color="#7c3aed" stop-opacity="0.45"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB"><stop offset="0" stop-color="#06b6d4" stop-opacity="0.35"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0"/></radialGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="softGlow" x="-10%" y="-50%" width="120%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.35 0" result="w"/>
+      <feMerge><feMergeNode in="w"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="card"><rect width="1200" height="340" rx="18"/></clipPath>
+    <style>
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+      .sans { font-family: -apple-system, "Segoe UI", Ubuntu, Helvetica, Arial, sans-serif; }
+      .tag { opacity: 0; animation: cycle 12s infinite; }
+      .t2 { animation-delay: 3s; } .t3 { animation-delay: 6s; } .t4 { animation-delay: 9s; }
+      @keyframes cycle {
+        0% { opacity: 0; transform: translateY(8px); }
+        3%, 22% { opacity: 1; transform: translateY(0); }
+        25%, 100% { opacity: 0; transform: translateY(-8px); }
+      }
+      .caret { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="#060912"/>
+
+    <circle cx="260" cy="90" r="260" fill="url(#glowA)">
+      <animate attributeName="r" values="240;290;240" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="960" cy="250" r="260" fill="url(#glowB)">
+      <animate attributeName="r" values="280;230;280" dur="11s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- perspective grid -->
+    <g mask="url(#gridMask)" stroke="#8b5cf6" stroke-width="1.2" opacity="0.7">
+      <g>
+        <line x1="600" y1="230" x2="-900" y2="340"/><line x1="600" y1="230" x2="-500" y2="340"/>
+        <line x1="600" y1="230" x2="-150" y2="340"/><line x1="600" y1="230" x2="150" y2="340"/>
+        <line x1="600" y1="230" x2="400" y2="340"/><line x1="600" y1="230" x2="600" y2="340"/>
+        <line x1="600" y1="230" x2="800" y2="340"/><line x1="600" y1="230" x2="1050" y2="340"/>
+        <line x1="600" y1="230" x2="1350" y2="340"/><line x1="600" y1="230" x2="1700" y2="340"/>
+        <line x1="600" y1="230" x2="2100" y2="340"/>
+      </g>
+      <g stroke="#22d3ee">
+        <line x1="0" x2="1200" y1="230" y2="230"><animate attributeName="y1" values="230;340" dur="3s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.6 0 1 1"/><animate attributeName="y2" values="230;340" dur="3s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.6 0 1 1"/></line>
+        <line x1="0" x2="1200" y1="230" y2="230"><animate attributeName="y1" values="230;340" dur="3s" begin="-0.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.6 0 1 1"/><animate attributeName="y2" values="230;340" dur="3s" begin="-0.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.6 0 1 1"/></line>
+        <line x1="0" x2="1200" y1="230" y2="230"><animate attributeName="y1" values="230;340" dur="3s" begin="-1.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.6 0 1 1"/><animate attributeName="y2" values="230;340" dur="3s" begin="-1.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.6 0 1 1"/></line>
+        <line x1="0" x2="1200" y1="230" y2="230"><animate attributeName="y1" values="230;340" dur="3s" begin="-1.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.6 0 1 1"/><animate attributeName="y2" values="230;340" dur="3s" begin="-1.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.6 0 1 1"/></line>
+        <line x1="0" x2="1200" y1="230" y2="230"><animate attributeName="y1" values="230;340" dur="3s" begin="-2.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.6 0 1 1"/><animate attributeName="y2" values="230;340" dur="3s" begin="-2.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.6 0 1 1"/></line>
+      </g>
+    </g>
+    <line x1="0" y1="230" x2="1200" y2="230" stroke="url(#neon)" stroke-width="2" filter="url(#glow)"/>
+
+    <!-- floating particles -->
+    <g fill="#e0e7ff">
+      <circle cx="140" cy="210" r="1.6"><animate attributeName="cy" values="220;40" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="330" cy="210" r="1.2"><animate attributeName="cy" values="220;30" dur="9s" begin="-3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" begin="-3s" repeatCount="indefinite"/></circle>
+      <circle cx="880" cy="210" r="1.4"><animate attributeName="cy" values="220;50" dur="8s" begin="-5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="-5s" repeatCount="indefinite"/></circle>
+      <circle cx="1060" cy="210" r="1.8"><animate attributeName="cy" values="220;20" dur="10s" begin="-1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="10s" begin="-1s" repeatCount="indefinite"/></circle>
+      <circle cx="720" cy="210" r="1.1"><animate attributeName="cy" values="220;60" dur="6s" begin="-2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" begin="-2s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- HUD corners -->
+    <g fill="none" stroke="#22d3ee" stroke-width="2" opacity="0.8">
+      <path d="M24 56 V24 H56"/><path d="M1144 24 H1176 V56"/>
+      <path d="M24 284 V316 H56"/><path d="M1144 316 H1176 V284"/>
+    </g>
+    <g class="mono" font-size="12" fill="#67e8f9" opacity="0.75">
+      <text x="72" y="40">ID://3DDELANO</text>
+      <text x="1128" y="40" text-anchor="end">BLR · IN</text>
+      <circle cx="1140" cy="36" r="4" fill="#22c55e"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- title -->
+    <text x="600" y="128" text-anchor="middle" class="sans" font-size="64" font-weight="800" letter-spacing="6" fill="url(#chrome)" filter="url(#softGlow)">DELANO LOURENCO</text>
+
+    <!-- cycling tagline -->
+    <g class="mono" font-size="22" fill="#e2e8f0" text-anchor="middle">
+      <text class="tag t1" x="600" y="182"><tspan fill="#22d3ee">&gt;</tspan> building full-stack web apps</text>
+      <text class="tag t2" x="600" y="182"><tspan fill="#22d3ee">&gt;</tspan> shipping mobile apps with React Native + Expo</text>
+      <text class="tag t3" x="600" y="182"><tspan fill="#22d3ee">&gt;</tspan> crafting Godot plugins and game SDKs</text>
+      <text class="tag t4" x="600" y="182"><tspan fill="#22d3ee">&gt;</tspan> wiring AI agents into game engines</text>
+    </g>
+
+    <!-- scan line -->
+    <rect x="0" y="-60" width="1200" height="60" fill="url(#scan)">
+      <animate attributeName="y" values="-60;340" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="1" y="1" width="1198" height="338" rx="17" fill="none" stroke="#1e293b" stroke-width="2"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="12" viewBox="0 0 1200 12" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="base" x1="0" x2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8b5cf6" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" x2="1">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#f0abfc" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="g" x="-10%" y="-300%" width="120%" height="700%"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+  <rect x="0" y="5" width="1200" height="2" fill="url(#base)"/>
+  <g>
+    <rect x="0" y="4" width="180" height="4" rx="2" fill="url(#pulse)" filter="url(#g)"/>
+    <rect x="0" y="5" width="180" height="2" rx="1" fill="url(#pulse)"/>
+    <animateTransform attributeName="transform" type="translate" values="-200 0;1220 0" dur="4s" repeatCount="indefinite"/>
+  </g>
+</svg>
